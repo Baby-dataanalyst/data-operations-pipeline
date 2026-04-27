@@ -43,3 +43,9 @@ python pipeline_validator.py
 - Null values per column
 - Status distribution (for example: `SUCCESS`, `FAILED`)
 
+## Background
+
+Built based on real production operations experience supporting AWS and GCP 
+data pipelines at Accenture for global enterprise clients. The validation 
+logic mirrors day-to-day data quality checks performed during live pipeline 
+monitoring for Ingredion (GCP/Airflow) and Essilor (AWS batch pipeline).
